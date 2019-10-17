@@ -4,6 +4,16 @@ This script deploys unikraft generated KVM target unikernels on **Digitalocean C
 
 ## Installation
 
+**Configuration**  
+Copy the script to `~/.unikraft/`
+
+```
+sudo cp config-do.sh ~/.unikraft/
+``` 
+- Go to digitalocean's `API > Applications & API > Spaces access keys` and generate your access key.  
+- Go to `Account > Security > SSH keys` and generate your sshkey/fingerprint.  
+Put your `spaces key` and `fingerprint` in the config file.
+
 Copy the script to `/usr/local/bin` 
 
 ```
